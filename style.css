@@ -1,0 +1,92 @@
+body {
+    background-color: #ffffff;
+}
+
+#clubHeader {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    color: #377caf; /* Python logo blue text colour*/
+    /*
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    */
+    background-color: #fccc3b;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#pythonWorkshopHeader {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: #377caf; /* Python logo blue text colour*/
+    /*
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    */
+    background-color: #fccc3b;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.os {
+    color:#fccc3b;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    background-color: #377caf;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.downloadLink {
+    color:#377caf;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 60px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-color: #fccc3b;
+}
+
+#linuxPythonInstallInstructions {
+    color:#377caf;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #fccc3b;
+}
+
+#installCommands {
+    width: 60%
+}
+
+#linuxCodiumInstallInstructions {
+    color:#377caf;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #fccc3b;
+}
+
+#installCodiumCommand {
+    width: 80%;
+}
