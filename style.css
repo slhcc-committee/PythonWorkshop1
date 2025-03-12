@@ -1,102 +1,144 @@
+/* Global Styles */
 body {
     background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+#clubHeader, #pythonWorkshopHeader {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #377caf; /* Python logo blue text color */
+    background-color: #fccc3b;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 #clubHeader {
-    font-family: 'Bebas Neue', sans-serif;
     font-size: 80px;
-    text-align: center;
-    color: #377caf; /* Python logo blue text colour*/
-    /*
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-    */
-    background-color: #fccc3b;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    width: 80%; /* Set width to 80% for consistency and responsiveness */
 }
 
 #pythonWorkshopHeader {
-    font-family: 'Bebas Neue', sans-serif;
     font-size: 70px;
-    text-align: center;
-    color: #377caf; /* Python logo blue text colour*/
-    /*
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #000;
-    */
-    background-color: #fccc3b;
-    margin-left: 30%;
-    margin-right: 30%;
+    width: 80%;
 }
 
+/* Centered image */
+.center {
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+}
+
+/* Section for OS Headers */
 .os {
-    color:#fccc3b;
+    color: #fccc3b;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
     text-align: center;
     background-color: #377caf;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: 20px 10%; /* Reduce margin to improve responsiveness */
+    padding: 20px;
 }
 
+/* Download Links */
 .downloadLink {
-    color:#377caf;
+    color: #377caf;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 60px;
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 20px auto;
+    width: 60%; /* Adjust width for better responsiveness */
     background-color: #fccc3b;
+    padding: 10px;
+    text-decoration: none;
 }
 
-#linuxPythonInstallInstructions {
-    color:#377caf;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    background-color: #fccc3b;
+.downloadLink:hover {
+    text-decoration: underline;
 }
 
-#installCommands {
-    width: 60%
-}
-
+/* Linux Installation Instructions */
+#linuxPythonInstallInstructions, 
 #linuxCodiumInstallInstructions {
-    color:#377caf;
+    color: #377caf;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 40px;
     text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 80%;
+    margin: 20px auto;
     background-color: #fccc3b;
+    padding: 15px;
 }
 
+/* Installation Commands */
+#installCommands {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: 'Courier New', monospace;
+    border: 1px solid #ddd;
+}
+
+/* Linux Codium Install Instructions */
 .installCodiumLinux {
     color: white;
     background-color: black;
-    font-size: 40px;
-    text-align: center;
+    font-size: 20px;
+    text-align: left;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     width: 80%;
     font-family: "Courier New", monospace;
+    padding: 15px;
 }
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    #clubHeader, #pythonWorkshopHeader, .os, .downloadLink, 
+    #linuxPythonInstallInstructions, #linuxCodiumInstallInstructions, 
+    .installCodiumLinux {
+        font-size: 24px; /* Reduce font size on smaller screens */
+        width: 90%; /* Use a larger width on smaller screens */
+    }
+
+    #clubHeader {
+        font-size: 50px;
+    }
+
+    #pythonWorkshopHeader {
+        font-size: 45px;
+    }
+
+    .os {
+        font-size: 40px;
+    }
+
+    .downloadLink {
+        font-size: 45px;
+        width: 80%;
+    }
+
+    #linuxPythonInstallInstructions,
+    #linuxCodiumInstallInstructions {
+        font-size: 30px;
+    }
+
+    .installCodiumLinux {
+        font-size: 30px;
+        width: 90%;
+    }
+
+    .center {
+        width: 80%; /* Adjust image width on smaller screens */
+    }
+}
+
+
     
 
