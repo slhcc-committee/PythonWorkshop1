@@ -87,18 +87,15 @@ body {
     background-color: #fccc3b;
 }
 
-#installCodiumCommand {
+.installCodiumLinux {
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-    height: 100%;
+    width: 80%;
 }
+    
 
-installCodiumCommand1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    height: 100%;
-}
