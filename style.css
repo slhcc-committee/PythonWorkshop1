@@ -21,6 +21,11 @@ body {
     width: 80%; /* Set width to 80% for consistency and responsiveness */
 }
 
+#clubHeaderImage {
+    width: 300px;
+    height: 200px;
+}
+
 #pythonWorkshopHeader {
     font-size: 70px;
     width: 80%;
