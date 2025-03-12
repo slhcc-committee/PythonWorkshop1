@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="utf-8" />	
-	<link href="style.css" rel="stylesheet" type="text/css">
-	<script src="script.js"></script>
-	<title>SLHCC - Introduction to Python (1/2)</title>
+    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SLHCC - Introduction to Python (1/2)</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js" defer></script>
     <link href="https://fonts.googleapis.com/css?family=Bebas+Neue" rel="stylesheet">
 </head>
 <body>
-    <img src="whittelogopython.png" alt="Swinburne Linux, Hardware and Code Club Logo" class="center" width="200" height="300"> 
-    <h1 id="clubHeader">Swinburne Linux, Hardware and Code Club</h1>
-    <h2 id="pythonWorkshopHeader">Introduction to Python Workshop (1/2) Downloads</h2>
-    <h2 class="os">Downloads for Windows 10/11:</h2>
-    <a class="downloadLink" href="https://www.python.org/downloads/windows/">Python</a><br>
-    <a class="downloadLink" href="https://github.com/VSCodium/vscodium/releases">VSCodium</a>
-    <h2 class="os">Downloads for Mac OS:</h2>
-    <a class="downloadLink" href="https://www.python.org/downloads/macos/">Python</a><br>
-    <a class="downloadLink" href="https://github.com/VSCodium/vscodium/releases">VSCodium</a>
-    <h2 class="os">Downloads for Linux:</h2>
-    <p id="linuxPythonInstallInstructions">Execute the following commands to install Python:</p>
-    <img src="installpython_linux.PNG" alt="Installation commands for Python" class="center" id="installCommands" width="100" height="150">
-    <p id="linuxCodiumInstallInstructions">Execute the following commands to install VSCodium (for Ubuntu/Debian based systems):</p>
-    <h3 class="installCodiumLinux">sudo apt update</h3>
-    <h3 class="installCodiumLinux">sudo apt install -y software-properties-common</h3>
-    <h3 class="installCodiumLinux">sudo add-apt-repository ppa:vscodium/vscodium</h3>
-    <h3 class="installCodiumLinux">sudo apt install -y codium</h3>
+    <header>
+        <img src="whitelogopython.png" alt="Swinburne Linux, Hardware and Code Club Logo" class="center" width="200" height="300"> 
+        <h1 id="clubHeader">Swinburne Linux, Hardware and Code Club</h1>
+        <h2 id="pythonWorkshopHeader">Introduction to Python Workshop (1/2) Downloads</h2>
+    </header>
+    <main>
+        <section>
+            <h2 class="os">Downloads for Windows 10/11:</h2>
+            <a class="downloadLink" href="https://www.python.org/downloads/windows/" target="_blank">Python</a><br>
+            <a class="downloadLink" href="https://github.com/VSCodium/vscodium/releases" target="_blank">VSCodium</a>
+        </section>
+
+        <section>
+            <h2 class="os">Downloads for Mac OS:</h2>
+            <a class="downloadLink" href="https://www.python.org/downloads/macos/" target="_blank">Python</a><br>
+            <a class="downloadLink" href="https://github.com/VSCodium/vscodium/releases" target="_blank">VSCodium</a>
+        </section>
+
+        <section>
+            <h2 class="os">Downloads for Linux:</h2>
+            <p id="linuxPythonInstallInstructions">Execute the following commands to install Python:</p>
+            <img src="installpython_linux.PNG" alt="Installation commands for Python" class="center" id="installCommands" width="100" height="150">
+            <p id="linuxCodiumInstallInstructions">Execute the following commands to install VSCodium (for Ubuntu/Debian based systems):</p>
+            <h5 class="installCodiumLinux">sudo apt update</h5>
+            <h5 class="installCodiumLinux">sudo apt install -y software-properties-common</h5>
+            <h5 class="installCodiumLinux">sudo add-apt-repository ppa:vscodium/vscodium</h5>
+            <h5 class="installCodiumLinux">sudo apt install -y codium</h5>
+        </section>
+    </main>
 </body>
+</html>
