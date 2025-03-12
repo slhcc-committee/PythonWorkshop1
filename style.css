@@ -88,11 +88,17 @@ body {
 }
 
 #installCodiumCommand {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
     height: 100%;
 }
 
 installCodiumCommand1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 50%;
     height: 100%;
 }
